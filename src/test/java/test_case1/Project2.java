@@ -12,6 +12,7 @@ public class Project2 extends TestBase
 		//Hut.ClickOn(Driver, "Account Name", "//*[@id='nav-link-accountList-nav-line-1']");
 		//Driver.findElement(By.id("nav-link-accountList-nav-line-1")).click();
 		Thread.sleep(2000);
+		System.out.println("Passed Test Method");
 		//Driver.findElement(By.id("captchacharacters")).sendKeys("Naveen");
 		/*Hut.EnterValue(Driver, "Email Address", "//*[@id='ap_email']", "9177879108");
 		//Driver.findElement(By.id("ap_email")).sendKeys("9177879108");

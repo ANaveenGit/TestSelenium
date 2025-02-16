@@ -13,9 +13,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestBase
 {
-	public static WebDriver Driver;
-	public static Properties prop = new Properties();
-	public static FileReader fr;
+	public WebDriver Driver;
+	public Properties prop = new Properties();
+	public FileReader fr;
 
 	@BeforeTest
 	public void setUp() throws IOException
