@@ -28,6 +28,7 @@ public class Project4 {
 	{
 		Driver.get("https://www.google.com/");
 		System.out.println("Entered Google URL");
+		//Driver.out;
 	}
 	
 	@AfterTest
