@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 import org.testng.annotations.BeforeTest;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
 public class Project4 {
@@ -28,8 +29,7 @@ public class Project4 {
 	{
 		Driver.get("https://www.google.com/");
 		System.out.println("Entered Google URL");
-		//Driver.out;
-		//Assert.assertEquals(Get.title(), "google.com");
+		Assert.assertEquals(Driver.getTitle(), "Google", "Titl is not Matching");
 		System.out.println("Check Title");
 	}
 	
