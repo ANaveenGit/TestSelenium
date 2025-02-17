@@ -30,6 +30,7 @@ public class Project4 {
 		System.out.println("Entered Google URL");
 		//Driver.out;
 		//Assert.assertEquals(Get.title(), "google.com");
+		System.out.println("Check Title");
 	}
 	
 	@AfterTest
